@@ -1,0 +1,33 @@
+
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Verdana;
+  margin: 2rem 10rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #88100f;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+  color: #88100f;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+}
