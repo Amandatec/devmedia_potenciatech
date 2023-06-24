@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.secao-topo {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 35rem;
+}
+
+.secao-capa {
+  background-image: url(./assets/capa.jpg);
+  background-size: cover;
+  height: 30rem;
+  text-align: right;
+  padding-top: 10.5rem;
+  padding-right: 25rem;
+  border-top: 1px solid #d1cdcd;
+}
+
+.secao-capa h1 {
+  font-size: 2.2rem;
+}
+
+.secao-capa h2 {
+  font-size: 1.8rem;
+}
+
+.secao-sobre-nos {
+  margin: 3rem auto;
+  text-align: left;
+  width: 80rem;
+}
+
+.secao-sobre-nos img{
+  width: 26rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.secao-sobre-nos span {
+  border-left: 1px solid #000000;
+  padding-left: 1rem;
+}
+
+.secao-sobre-nos p {
+  font-size: 1.5rem;
+}
+
+h3 {
+  padding-top: 3rem;
+  padding-bottom: 1.3rem;
+  font-size: 1.7rem;
+}
+
+.destaque {
+  background-image: url(./assets/fundo.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem;
+}
+
+ .titulo-destaque {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 2.5rem;
+  font-size: 2.5rem;
+  width: 15rem;
+  padding: .2rem;
+  margin: 0 auto;
+}
+
+.secao-base {
+  margin: 0 auto;
+  width: 80rem;
+  margin-bottom: 6rem;
+}
+
+.secao-atuacao  p {
+  margin-bottom: 1.5rem;
+}
+
+.secao-atuacao ul {
+margin-left: 3.5rem;
+line-height: 2.5rem;
+}
+
+.secao-contato {
+
+}
