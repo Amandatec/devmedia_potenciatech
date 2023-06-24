@@ -90,8 +90,14 @@ h3 {
   color: #ffffff;
 }
 
+.secao-destaque-azul ul {
+  margin: 4rem auto;
+  width: 13rem;
+}
+
 .secao-destaque-azul li{
-  margin: 1rem auto;
+  line-height: 3rem;
+  text-align: left;
 }
 
 .destaque-amarelo {
@@ -132,7 +138,10 @@ iframe {
   margin-bottom: 1.8rem ;
 }
 
-#contato li a {
+#contato li {
+  width: 21rem;
+}
+#contato  li a {
   background-color: #ffffff;
   border-radius: .5rem;
   color: #0d72bb;
