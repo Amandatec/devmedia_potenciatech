@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.topo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #604829;
+  gap: 70rem;
+  position: fixed;
+  z-index: 1;
+}
+
+.topo a {
+  color: #c4a47c;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2rem;
+  padding-left: 2rem;
+  text-shadow: 0.2rem 0.4rem black;
+  text-transform: uppercase;
+}
+
+#img-logo {
+  width: 6rem;
+}
+
+#banner, #contatos, #horarios {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#informacoes-1, #informacoes-2 {
+  height: 50vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#banner {
+background-image: url(./assets/parallax-imagem1.png);
+position: relative;
+padding: 20rem;
+}
+
+#banner h1 {
+  position: absolute;
+  font-size: 7rem;
+  font-weight: 400;
+  font-family: 'Fraunces', serif;
+  color: #fff;
+  text-transform: uppercase;
+  top: 45%;
+  text-align: c;
+}
+
+.container-texto{
+  max-width: 102.4rem;
+  padding: 0 2rem;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.container-texto h2 {
+  color: #c4a47c;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.container-texto p {
+  padding: 8rem 0rem;
+  color: #666;
+  font-size: 1.8rem;
+  line-height: 3.5rem;
+  text-align: justify;
+}
+
+#informacoes-1 {
+  background-image: url(./assets/parallax-imagem2.jpg);
+}
+
+#informacoes-2 {
+  background-image: url(./assets/parallax-imagem3.jpg);
+}
+
+#informacoes h3 , #contatos h3{
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  background-color: #604829;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  padding: 1.5rem 2rem;
+}
+
+#contatos {
+  background-image: url(./assets/parallax-imagem4.png);
+  position: relative;
+}
+
+#contatos h3 {
+  text-align: center;
+  width: 50rem;
+  top: 10%;
+  left: 40%;
+  font-style: normal;
+}
+
+#contatos .paragrafo-contatos {
+  width: 50rem;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  background-color: #604829;
+  position: absolute;
+  padding: 1rem;
+  bottom: 2%;
+  left: 40%;
+}
+
+#contatos .paragrafo-contatos p {
+  line-height: 3rem;
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+}
+
+#contatos iframe {
+  position: absolute;
+  top: 23%;
+  left: 23%;
+  padding-bottom: 5rem;
+}
+
+#horarios {
+  background-image: url(./assets/cafeteria.jpg);
+  position: relative;
+}
+
+#horarios h2, #horarios h3, 
+#horarios p,#horarios span {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+#horarios h2 {
+  color: #fff;
+  font-size: 2.8rem;
+  text-align: center;
+  padding-top: 15rem;
+  letter-spacing: 0.2rem;
+}
+
+#horarios h3 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+#horarios p {
+  color: #ACACAC;
+  font-size: 2rem;
+}
+
+#horarios span {
+  color: #c4a47c;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#horarios .horarios-linha {
+  background-color: #665;
+  height: 0.2rem;
+  width: 60rem;
+}
+
+#horarios ul {
+  position: absolute;
+  bottom: 20%;
+  left: 25%;
+}
+
+#horarios ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8rem;
+  line-height: 5rem;
+}
+
+footer {
+  position: relative;
+  background-color: #000;
+  width: 100%;
+  height: 8rem;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#seta-rodape{
+  position: absolute;
+  right: 10rem;
+  bottom: 3.5rem;
+}
+
+
+footer p {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+footer span {
+  color: #c4a47c;
+}
