@@ -193,7 +193,7 @@ padding: 20rem;
 #horarios ul li h3 {
   color: #fff;
   font-size: 2.5rem;
-  flex: 0 1 8rem;
+  flex: 0 1 10rem;
 }
 
 #horarios ul li p {
@@ -210,6 +210,8 @@ padding: 20rem;
 #horarios ul li p,
 #horarios ul li span {
   text-align: right;
+  flex: 0 1 12rem;
+
 }
 
 #horarios ul li .horarios-linha {
